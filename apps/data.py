@@ -14,7 +14,7 @@ def app():
         startup(data_id="1", data=df)
         df = get_instance("1").data
         #components.html("<html><body><iframe src='/dtale/main/1' style='height:800px;width:800px;' /></body></html>")
-        st.markdown("<a href=/dtale/main/1 class='btn btn-outline-success' target='_blank'>Exploratory Data Analysis</a>", unsafe_allow_html=True)
+        st.markdown("<a href=https://apps.streamlitusercontent.com/dtale/main/1 class='btn btn-outline-success' target='_blank'>Exploratory Data Analysis</a>", unsafe_allow_html=True)
         #components.html("<a href=/dtale/main/1 class='btn btn-primary' target='_blank'>Exploratory Data Analysis</a>")
 
     st.set_option('deprecation.showfileUploaderEncoding',False)
